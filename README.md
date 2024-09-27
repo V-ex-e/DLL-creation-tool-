@@ -2,7 +2,7 @@
 
 Works better on KDE plasma for the necessary rice ™; we all love and share ^^.
 
-Work in meintained progress (WIMP):
+Work in maintained progress (WIMP):
 
 Main functionality: 
 

@@ -3,7 +3,7 @@
 #!/bin/bash
 
 
-# Initialize var to 2 to enter the while loop
+# Initializ var to 2 to enter the while loop
 var=2
 
 while [ $var -eq 2 ]; do
@@ -16,10 +16,10 @@ while [ $var -eq 2 ]; do
     current_font_size=$(kwriteconfig5 --file kdeglobals --group General --key font)
     echo "Current font size is: $current_font_size"
 
-    # Temporarily change the font size
+    # Temp. change the font size
     kwriteconfig5 --file kdeglobals --group General --key font "Noto Sans, 3"
 
-    # Simulate some task
+    # Simulate 
     # Function to echo each line with a delay  of 0.0825 seconds
     function delayed_echo {
         echo "$1"
@@ -106,15 +106,15 @@ while [ $var -eq 2 ]; do
     delayed_echo "............................................................................................................................................................................................................................................................................................................"
     delayed_echo "............................................................................................................................................................................................................................................................................................................"
 
-    # Restore the original font size
+    # original font size
     echo "Restoring the original font size"
     kwriteconfig5 --file kdeglobals --group General --key font "$current_font_size"
 
-    # Apply the changes (this refreshes the desktop settings)
+    # changes (this refreshes the desktop settings)
     qdbus org.kde.KWin /KWin reconfigure
 
     else
-    # Function to echo each line with a delay of 0.12 seconds
+    # echo each line with a delay of 0.12 seconds
     function delayed_echo {
         echo "$1"
         sleep 0.12
@@ -141,7 +141,7 @@ while [ $var -eq 2 ]; do
     delayed_echo "............................................................'........................^"
     fi
 
-    # XOR Encryption function for manual obfuscation
+    # XOR Encryption
     xor_encrypt() {
         local input=$1
         local key=$2

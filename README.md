@@ -23,9 +23,15 @@ Custom Settings
 > user can use a prebuild dll
 > user defines ports and IPs of target and attacker machine
 > user can use a built EXE or define one to be recompiled and encrypted
-> Dll rootkit loading and permission extension
+> dll rootkit loading and permission extension
 
 
+User only needs to ship the full payload to the target machine
+and listen on the specified port for a reverse shell connection
 
+Windows defender is clueless as of September 2024
 
+Video preview: 
 https://drive.google.com/file/d/1f0yA7NTUHf24IRjPPcFrJwoicJkn2B22/view?usp=sharing
+
+Disclaimer: not all functionality is shown in the preview updated code will be uploaded this week 09/27/2024

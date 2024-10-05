@@ -1,29 +1,15 @@
 # Payload-creation-tool-
 
 
-Full Version v1.2 10/05/2024 = in Directory "pwn-suite"
+Full Version >>>>> v1.2 10/05/2024 = in Directory >>>>> "pwn-suite"
 view online = https://drive.google.com/file/d/15GVtdcF5nQoM3-4qVxpG9ggdorQwjL9u/view?usp=sharing
 
 
-#!/bin/bash
-
-
-display_kali_dragon() {
-    art=(
-        "__________                                      .__  __"         
-        "\______   \__  _  ______             ________ __|__|/  |_  ____  "
-        "|     ___/\ \/ \/ /    \   ______  /  ___/  |  \  \   __\/ __ \ "
-        "|    |     \     /   |  \ /_____/  \___ \|  |  /  ||  | \  ___/" 
-        "|____|      \/\_/|___|  /         /____  >____/|__||__|  \___  >"
-        "                      \/               \/                    \/ "
-    )
 
 
 
 
-
-
-OLD v1.1 = "7-7.sh"
+OLD COMMIT >>>>>> v1.1 = "7-7.sh"
 
 Works better on KDE plasma for the necessary rice ™; we all love and share ^^.
 
